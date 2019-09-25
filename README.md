@@ -1,4 +1,3 @@
 # rl-st
-Reinforcement Learning - Style Transformer 
-The readme have the guide to replicate the results of RL-ST.
+The readme have the guide to replicate the results of Reinforcement Learning - Style Transformer (RL-ST).
 ## Pre-Trainings
