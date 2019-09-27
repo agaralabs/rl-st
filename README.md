@@ -21,3 +21,8 @@ python openai_gpt_delete_and_generate.py \
 --max_seq_length 85 \
 --output_dir $DG_MODEL_OUT
 ```
+## RL Training:
+For RL training run all the cells of **Policy_Gradient_Final_version.ipynb** by filling the model and dataset path.
+
+## Note:
+We haven't put the GYAFC data as it requires permission from the authors of the dataset. 
