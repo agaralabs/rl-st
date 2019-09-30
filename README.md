@@ -1,7 +1,7 @@
 # Readme
-The readme have the guide to replicate the results of our paper.
+Replicate the results of our paper.
 ## Pre-Trainings
-To Generate the psudo parallal corpus, we have used the code from [here](https://github.com/agaralabs/transformer-drg-style-transfer). The psudo parallal corpus have some noise because of the limitations of the model used to generate it, which affacts the content retention ability of the model. To reduce this effect, during pre-training we have used each sentences to be converted in both the target style. The training and validation data can be found under **dataset** directory.
+To Generate the pseudo parallel corpus described in the paper, we have used the code from [here](https://github.com/agaralabs/transformer-drg-style-transfer). The pseudo parallel corpus have some noise because of the limitations of the model used to generate it, which affacts the content retention ability of the model. The RL training and validation data for our described model can be found under **dataset** directory.
 
 Execute the below commands to run the pre-training:
 ```
@@ -22,7 +22,7 @@ python openai_gpt_delete_and_generate.py \
 --output_dir $DG_MODEL_OUT
 ```
 ## RL Training:
-For RL training run all the cells of **Policy_Gradient_Final_version.ipynb** by filling the model and dataset path.
+For RL training, run all the cells of **Policy_Gradient_Final_version.ipynb** by filling in the model and dataset path.
 
 ## Note:
-We haven't put the GYAFC data as it requires permission from the authors of the dataset. 
+We haven't put up the GYAFC dataset as it requires permission from the authors of GYAFC. 
