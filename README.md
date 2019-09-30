@@ -1,7 +1,7 @@
 # Readme
 Replicate the results of our paper.
 ## Pre-Trainings
-To Generate the pseudo parallel corpus described in the paper, we have used the code from [here](https://github.com/agaralabs/transformer-drg-style-transfer). The pseudo parallel corpus have some noise because of the limitations of the model used to generate it, which affacts the content retention ability of the model. The RL training and validation data for our described model can be found under **dataset** directory.
+To Generate the pseudo parallel corpus described in the paper, we have used the code from [here](https://github.com/agaralabs/transformer-drg-style-transfer). The RL training and validation data for our described model can be found under **dataset** directory.
 
 Execute the below commands to run the pre-training:
 ```
